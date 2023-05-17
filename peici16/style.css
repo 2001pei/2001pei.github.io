@@ -1,0 +1,58 @@
+@media (min-width: 576px){}
+@media (min-width: 768px){}
+@media (min-width: 1200px){}
+
+
+.img{
+	margin-left: 35px;
+	margin-right: 35px;
+	justify-content: center;
+}
+.content{
+	height: 500px;
+	padding: 30px;
+	min-width: none;
+}
+.content a{
+	font-family: 'Times New Roman', Times, serif;
+	display: block;
+	font-size: 40px;
+	text-decoration: none;
+	display: flex;
+	justify-content: center;
+}
+.content p{
+	font-size: 3vmin;
+	display: flex;
+	justify-content: center;
+	font-family:'微軟正黑體';
+}
+.content h3{
+color: orange;
+}
+
+.card-group{
+	margin: 35px;
+}
+.card-title{
+	color: brown;
+	font-weight:bold;
+}
+.money{
+	margin: 35px;
+}
+.social li{
+	list-style: none;
+	display:inline
+}
+.footer{
+	background:chocolate;
+}
+.footer span{
+	text-align: 15px;
+	display: flex;
+	justify-content: center;
+	color: white;
+	padding: 6px;
+	list-style: none;
+}

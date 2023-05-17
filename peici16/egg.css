@@ -1,0 +1,66 @@
+.wrap{
+    width: 800px;
+    margin: 50px auto;
+    overflow: hidden; /* 避免長方框下面顯示不正常 */
+    background-color: papayawhip;
+  }
+  .content{
+    width: 450px;
+    float:left; /* 圖片在左邊 */
+    
+  }
+  .content img{
+    display: block;
+    width:100%;
+  }
+  .text{
+    float: right;  /* 文字在右邊 */
+    width: 310px;
+    padding: 60px 0px 0px 10px;
+  }
+  h2{
+    font-family: serif;
+    color: orange;
+    padding-bottom: 10px;
+  }
+p{
+    line-height: 12px;
+}
+
+
+
+
+
+
+.wrap2{
+  max-width: 1200px;
+  min-height: 200px;
+  margin: 50px auto;
+  overflow: hidden; /* 避免長方框下面顯示不正常 */
+  background-color: papayawhip;
+  display: flex;
+  justify-content: space-between;
+}
+.content2,.content3{
+  width: 400px;
+}
+
+.content2 img,.content3 img{
+  width:100%;
+}
+.text2{
+  margin: 30px;
+  padding-top: 65px;
+}
+
+h2{
+  font-family: serif;
+  color: orange;
+  padding-top: 20px;
+}
+p{
+  line-height: 12px;
+}
+
+
+
